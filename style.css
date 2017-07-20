@@ -1,0 +1,48 @@
+/* Style body by adding background image and set it to cover, add font family */
+
+body {
+    background: url(img/bg-232-s.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arvo, serif;
+}
+
+
+
+/* Style brand */
+.logo {
+    height: 30px;
+    width: auto;
+}
+
+/* Style nav. bar */
+.navbar-inverse {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav li {
+    color: #fff;
+    font-size: 19px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+.nav li:hover {
+    border-bottom: 1px solid #00ffb8;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+/* Style Jumbotron */
+
+/* limit the width of the icons section */
+
+/* Style icons section using BS grid system */
+
+/* Style contact button */
+
+/* Style footer */
+
+/* use media queries to change icons size in small devices */
+
