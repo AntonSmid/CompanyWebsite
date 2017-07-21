@@ -1,3 +1,16 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
 /* Style body by adding background image and set it to cover, add font family */
 
 body {
@@ -35,14 +48,68 @@ body {
 }
 
 /* Style Jumbotron */
+.jumbotron {
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
 
 /* limit the width of the icons section */
 
+.container {
+    max-width: 1000px;
+}
+
 /* Style icons section using BS grid system */
+.bodyimage {
+    height: 100px;
+}
+
+.col-md-4 {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icons p {
+    font-size: 16px;
+}
 
 /* Style contact button */
+.contact {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
 
+.btn {
+    background-color: rgba(0, 255, 184, 0.5);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 70px;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
 /* Style footer */
-
+.footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: gray;
+    padding: 15px 0;
+    font-size: 15px;
+}
 /* use media queries to change icons size in small devices */
-
+@media (max-width: 768px) {
+    .bodyimage {
+        height: 70px;
+    }
+    
+}
